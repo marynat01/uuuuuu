@@ -1,0 +1,590 @@
+.h1, h1 {
+    margin: 30px;
+    font-size: 15.5rem;
+}
+
+
+
+
+.block {
+    width: auto;
+    height: auto;
+    background-color: #0f0f0f;
+}
+
+
+
+.mar {
+    width: 390px;
+    border-radius: 100%;
+    border-width: 20px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    padding: 0.7em;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.non {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 90px;
+}
+
+
+.raze {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    justify-content: right;
+}
+
+.rol {
+    width: 200px;
+    border-radius: 20%;
+    gap: 20px;
+}
+
+
+@media screen and (max-width: 650px) {
+    .non {
+        flex-direction: column;
+    }
+}
+
+.col {
+    padding-left: 90px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.rot {
+    padding-right: 90px;
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+
+
+
+
+.por {
+    padding-left: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.tor {
+    text-align: center;
+}
+
+
+.yor {
+    text-align: center;
+}
+
+
+
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+}
+
+
+.navbarNav {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+}
+
+
+.top {
+    background-color: black;
+}
+
+
+.heade {
+    top: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.rof {
+    font-size: 25px;
+    color: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+
+.io a {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    gap: 10px;
+}
+
+
+
+html, h1 {
+    height: 100%;
+}
+.gl {
+    font-size: 5em;
+    max-width: min-content;
+    font-family: 'Anton', sans-serif;
+    color:aliceblue
+}
+
+
+.non .btn-box{
+    width: 345px;
+    height: 100px;
+    background: aqua;
+}
+
+
+.pop {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    background: blueviolet;
+    border: 2px solid brown;
+    border-radius: 8px;
+}
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: black;
+} */
+
+.iner{
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+    z-index: 9;
+    background:linear-gradient(#14ffe9, #ffeb3b, #ff00e0) ;
+    height: 70px;
+    width: 220px;
+    border-radius: 50px;  
+}
+
+/* .corner {
+    margin: 0 50px;
+    background:linear-gradient(#14ffe9, #ffeb3b, #ff00e0) ;
+}
+
+.button{
+    height: 70px;
+    width: 220px;
+    border-radius: 50px;   
+} */
+
+
+.iner .button, .iner span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.iner button{
+    background-color: black;
+    color: aliceblue;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.iner button {
+    height: 60px;
+    width: 210px;
+    border-radius: 50px;
+    margin: 45px;
+}
+
+
+.iner span{
+    height:100%;
+    width: 100%;
+    background: inherit;
+}
+
+.iner .button span{
+    border-radius: 50px;
+}
+
+.iner span:nth-child(1){
+    filter: blur(40px);
+}
+
+.corner span:nth-child(2){
+    filter: blur(40px);
+}
+
+
+.iner{
+    animation: rotate 1.5s linear infinite;
+}
+
+
+
+
+
+@keyframes rotate {
+        0%{
+            filter: hue-rotate(0deg);
+        }
+        100%{
+            filter: hue-rotate(360deg);
+        }
+    }
+
+    
+
+
+
+
+    h1 {
+        background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+        background-size: 200%;
+        font-size: 100px;
+        letter-spacing: 10px;
+        word-spacing: 5px;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        animation: animate 10s linear infinite;
+        color: white;
+    }
+    
+    @keyframes animate {
+        0% {
+            background-position: 0%;
+        }
+    
+        100% {
+            background-position: 400%;
+        }
+    }
+    
+    
+    
+    
+    .perk {
+        display: none;
+        width: 30px;
+        border-radius: 10%;
+        background-color: aliceblue;
+        
+    }
+
+
+
+/* Пример медиа-запроса для устройств с максимальной шириной экрана 768px (типичная ширина для мобильных устройств) */
+@media screen and (max-width: 768px) {
+    .non {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        width: 425px;
+        
+    }
+
+    .raze {
+        max-width: 140px;
+        display: flex;
+        justify-content: center;
+        margin: -100px;
+    }
+
+    .rol {
+        width: 90%;
+        border-radius: 10px;
+        margin-bottom: 0px;
+    }
+
+    .col, .rot, .por {
+        padding: 0;
+        margin: 10px 0;
+        justify-content: center;
+    }
+
+    .gl {
+        display: flex;
+        font-size: 3em;
+        text-align: center;
+        margin: 20px 0;
+        flex-direction: column;
+    }
+
+    .perk {
+        display: block;
+        top: 20px;
+        left: 20px;
+        background-color: aliceblue;
+        justify-content: right;
+    }
+
+    /* .io {
+        display: none; 
+    } */
+    .corner {
+        display: flex;
+        justify-content: center;
+        max-width: 230px;
+    }
+
+    .iner, .button {
+        margin-top: 20px;
+        max-width: 150px;
+    }
+
+    .tor {
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+
+
+
+    .perk {
+        display: flex;
+        position: absolute;
+        margin-left: 350px;
+    }
+
+    .io .perk {
+        display: block; /* Отображение кнопки-меню на мобильных устройствах */
+        top: 20px; /* Позиционирование кнопки сверху */
+        left: 20px; /* Позиционирование кнопки слева */
+        background-color: aliceblue;
+        justify-content: right;
+        position: absolute;
+    }
+    .heade {
+        width: 125%;
+        
+    }
+
+
+
+    .heade, .io {
+        margin-left: 0;
+        position: absolute;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+    .io {
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(170, 150, 150, 0.514);
+        width: 430px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;       
+        backdrop-filter: blur(7px);
+        transition: all 0.5s ease;
+        margin-left: -120%;
+    }
+
+    .io.perk {
+        margin-left: 0;
+    }
+    .mom .uou2,.uou1,.uou3,.uou4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 1.1em;
+    }
+     .mom {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+        font-size: 1.9em;
+     }
+     
+     .mom .uou3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 1.1em;
+    }
+    .mom .uou4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 1.1em;
+    }
+    .mom .uou1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 1.1em;
+    }
+    .non {
+        margin: top 100px;;
+    }
+     nav.io.perk{
+        display: flex;
+        justify-content: center;
+        height: 975px;
+        width: 425px;
+        margin-top: -55px;
+     }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+
+
+    .perk {
+        display: flex;
+        position: absolute;
+        margin-left: 350px;
+    }
+
+    .io .perk {
+        display: block; /* Отображение кнопки-меню на мобильных устройствах */
+        top: 20px; /* Позиционирование кнопки сверху */
+        left: 20px; /* Позиционирование кнопки слева */
+        background-color: aliceblue;
+        justify-content: right;
+        position: absolute;
+    }
+    .heade {
+        width: 125%;
+        
+    }
+
+
+
+    .heade, .io {
+        margin-left: 0;
+        position: absolute;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+    .io {
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(170, 150, 150, 0.514);
+        width: 430px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;       
+        backdrop-filter: blur(7px);
+        transition: all 0.5s ease;
+        margin-left: -120%;
+    }
+
+    .io.perk {
+        margin-left: 0;
+    }
+    .mom .uou2,.uou1,.uou3,.uou4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 1.1em;
+    }
+     .mom {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+        font-size: 1.9em;
+     }
+     
+     .mom .uou3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 1.1em;
+    }
+    .mom .uou4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 1.1em;
+    }
+    .mom .uou1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 1.1em;
+    }
+    .non {
+        margin: top 100px;;
+    }
+     nav.io.perk{
+        display: flex;
+        justify-content: center;
+        height: 975px;
+        width: 425px;
+        margin-top: -55px;
+     }
+}
+
+
+  

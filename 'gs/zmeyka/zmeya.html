@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="zmeyka.css">
+    <script src="kol.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+
+
+    <header class="heade">
+        <a href="/osnova/poc.html" class="rof">Ryabchik.</a>
+        <nav class="io">
+          <div class="mom">
+            <a href="/zmeyka/zmeya.html" class="uou2">Zmeyka</a>
+            <a href="" class="uou1">Tetris</a>
+            <a href="" class="uou3">nichego</a>
+            <a href="" class="uou4">nichego 2.0</a>
+          </div>
+        </nav>
+          <img src="Hamburger_icon.svg.png" alt="burga" class="perk">
+    </header>   
+              <script>
+                const menuHamburger = document.querySelector(".perk")
+          const navLinks = document.querySelector(".io")
+   
+          menuHamburger.addEventListener('click',()=>{
+          navLinks.classList.toggle('perk')
+          }) 
+              </script>
+              
+             </div>
+    <div class="wrapper">
+        <div class="game-details">
+          <span class="score">Score: 0</span>
+          <span class="high-score">High Score: 0</span>
+        </div>
+        <div class="play-board">
+        </div>    
+        <div class="control">
+            <i data-key="ArrowLeft" class="fa-solid fa-arrow-left-long"></i>
+        <i data-key="ArrowUp" class="fa-solid fa-arrow-up-long"></i>
+        <i data-key="ArrowRight" class="fa-solid fa-arrow-right-long"></i>
+        <i data-key="ArrowDown" class="fa-solid fa-arrow-down-long"></i>
+        </div>
+</body>
+</html>
